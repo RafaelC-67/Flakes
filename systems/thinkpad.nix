@@ -47,14 +47,17 @@
     "flakes"
   ];
 
-  users.users = {
-    rafael = {
-      isNormalUser = true;
-      extraGroups = [
-        "wheel"
-        "networkmanager"
-      ];
-      shell = pkgs.zsh;
+  users = {
+    mutableUsers = false;
+    defaultUserShell = pkgs.zsh;
+    users = {
+      rafael = {
+        isNormalUser = true;
+        extraGroups = [
+          "wheel"
+          "networkmanager"
+        ];
+      };
     };
   };
 

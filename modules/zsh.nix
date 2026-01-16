@@ -4,11 +4,36 @@
     zsh = {
       enable = true;
 
+      history = {
+        share = true;
+        extended = true;
+        ignoreAllDups = true;
+        ignoreSpace = true;
+      };
+      autocd = true;
+      syntaxHighlighting.enable = true;
+      autosuggestions.enable = true;
+
+      zsh-abbr = {
+        enable = true;
+        abbreviations = {
+          # Nix
+          switch = "nh os switch --ask --impure";
+          clean = "nh clean all";
+          # Misc
+          ff = "fastfetch";
+        };
+      };
+
       shellAliases = {
         cd = "z";
       };
     };
     zoxide = {
+      enable = true;
+      enableZshIntegration = true;
+    };
+    autin = {
       enable = true;
       enableZshIntegration = true;
     };

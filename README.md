@@ -6,8 +6,10 @@ you can install by using this command:
 
 ```
 git clone https://github.com/RafaelC-67/Flakes.git ~/.local/share/Flakes
-sudo nixos-rebuild switch --flakes ~/.local/share/Flakes
+sudo nixos-rebuild boot --flakes ~/.local/share/Flakes
 ```
+
+and reboot your machine
 
 after that you can rebuild the system with:
 ```

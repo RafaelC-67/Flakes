@@ -2,6 +2,7 @@
 {
   imports = [
     ../modules/zsh.nix
+    ../modules/hyprland.nix
   ];
 
   home = {

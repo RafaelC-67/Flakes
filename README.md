@@ -5,7 +5,7 @@ You can fork or clone to use it for yourself but remember to rename the username
 you can install by using this command:
 
 ```
-git clone https://github.com/RafaelC-67/Flakes.git ~/.local/share/Flakes
+git clone https://github.com/heavenslab/Flakes.git ~/.local/share/Flakes
 sudo nixos-rebuild boot --flakes ~/.local/share/Flakes
 ```
 

@@ -2,7 +2,7 @@
 {
   imports = [
     /etc/nixos/hardware-configuration.nix
-    ./modules/nh.nix
+    ../modules/nh.nix
   ];
 
   boot.loader = {

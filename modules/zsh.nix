@@ -1,4 +1,4 @@
-{ }:
+{ ... }:
 {
   imports = [ ./starship.nix ];
 
@@ -35,7 +35,7 @@
       enable = true;
       enableZshIntegration = true;
     };
-    autin = {
+    atuin = {
       enable = true;
       enableZshIntegration = true;
     };

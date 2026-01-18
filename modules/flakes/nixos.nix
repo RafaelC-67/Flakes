@@ -6,7 +6,7 @@
       specialArgs = { inherit inputs; };
       modules = [
         # Your Configuration files
-        ../systems/thinkpad.nix
+        ../../systems/thinkpad.nix
         # Home Manager Module
         inputs.home-manager.nixosModules.home-manager
         {
@@ -17,7 +17,7 @@
             extraSpecialArgs = { inherit inputs; };
 
             users = {
-              rafael = ../users/rafael.nix;
+              rafael = ../../users/rafael.nix;
             };
           };
         }

@@ -1,8 +1,9 @@
 { pkgs, ... }:
 {
-  environment.systemPackages = with pkgs; [ kitty ];
 
-  programs.hyprland = {
+  home.packages = with pkgs; [ kitty ];
+
+  wayland.windowManager.hyprland = {
     enable = true;
   };
 }

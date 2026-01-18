@@ -33,8 +33,8 @@
     }:
     flake-parts.lib.mkFlake { inherit inputs; } {
       imports = [
-        ./flakes/nixos.nix
-        ./flakes/devShells.nix
+        ./modules/flakes/nixos.nix
+        ./modules/flakes/devShells.nix
       ];
 
       flake = { };

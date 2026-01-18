@@ -66,6 +66,8 @@
 
   programs = {
     zsh.enable = true;
+    hyprland.enable = true;
+    firefox.enable = true;
   };
 
   environment.systemPackages = with pkgs; [ nixfmt ];

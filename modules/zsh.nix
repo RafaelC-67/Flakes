@@ -14,7 +14,7 @@
       };
       autocd = true;
       syntaxHighlighting.enable = true;
-      autosuggestions.enable = true;
+      autosuggestion.enable = true;
 
       zsh-abbr = {
         enable = true;

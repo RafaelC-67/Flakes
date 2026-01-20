@@ -6,7 +6,16 @@
     enable = true;
 
     extraConfig = ''
+      #Binds
       bind = SUPER, T, exec, foot
-      bind = SUPER, Q, killactive'';
+      bind = SUPER, Q, killactive
+      # Monitor
+      monitor = , preferred, auto, 1
+      # Input
+      input {
+        touchpad {
+          natural_scroll = true
+          }
+      }'';
   };
 }

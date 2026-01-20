@@ -5,6 +5,8 @@
       system = "x86_64-linux";
       specialArgs = { inherit inputs; };
       modules = [
+        # Others Modules
+        inputs.sops-nix.nixosModules.sops
         # Your Configuration files
         ../../systems/thinkpad.nix
         # Home Manager Module

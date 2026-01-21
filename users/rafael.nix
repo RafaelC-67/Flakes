@@ -13,6 +13,7 @@
 
     packages = with pkgs; [
       fastfetch
+      gnupg
     ];
 
     stateVersion = "25.11";

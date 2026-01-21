@@ -8,6 +8,7 @@
     extraConfig = ''
       #Binds
       bind = SUPER, T, exec, foot
+      bind = SUPER, W, exec, firefox
       bind = SUPER, Q, killactive
       # Monitor
       monitor = , preferred, auto, 1

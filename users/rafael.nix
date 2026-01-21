@@ -4,7 +4,7 @@
     ../modules/zsh.nix
     ../modules/git.nix
     ../modules/hyprland.nix
-    ../modules/nvf.nix
+    ../modules/apps/nvf/nvf.nix
   ];
 
   home = {

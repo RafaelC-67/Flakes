@@ -5,7 +5,7 @@
 
     settings = {
       main = {
-        fonts = "JetBrains Mono NF";
+        font = "JetBrains Mono NF:size=12";
       };
     };
   };

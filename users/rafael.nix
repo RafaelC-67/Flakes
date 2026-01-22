@@ -4,6 +4,7 @@
     ../modules/zsh.nix
     ../modules/git.nix
     ../modules/hyprland.nix
+    ../modules/apps/nixcord.nix
     ../modules/apps/nvf/nvf.nix
   ];
 
